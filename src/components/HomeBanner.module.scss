@@ -1,0 +1,32 @@
+.home-banner {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  &__heading {
+    color: white;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+  }
+  &__subtitle {
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-banner {
+    gap: 1rem;
+    &__heading {
+      font-size: 5rem;
+    }
+    &__subtitle {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+  }
+}

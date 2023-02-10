@@ -1,0 +1,24 @@
+.events{
+    height: 12rem;
+    margin-top: 7rem;
+
+    &__nav{
+        height: 12rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__list{
+        display: flex;
+        gap: 3rem;
+    }
+}
+
+
+@media(min-width:768px){
+    .events{
+        margin-top: 12rem;
+    }
+}
+

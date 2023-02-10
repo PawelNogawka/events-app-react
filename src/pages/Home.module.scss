@@ -1,0 +1,23 @@
+@import '../variables';
+
+.home{
+    background-image:$dark-gradient, url('../assets/events-hero-small.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        min-height: 100vh;
+    }
+}
+
+
+@media(min-width:992px){
+    .home{
+        background-image:$dark-gradient, url('../assets/events-hero-big.jpg');
+    }
+}
